@@ -1,0 +1,14 @@
+#root {
+    display: column flex;
+}
+
+header {
+    display: flex;
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+
+header * {
+    margin-left: 24px;
+    margin-right: 24px;
+}
