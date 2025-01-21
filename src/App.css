@@ -3,3 +3,25 @@
     padding: 0px;
     margin-left:10px;
 }
+
+.bi-geo-alt, .bi-tag, .bi-book, .bi-journals, .bi-arrow-left-right{
+    font-size: 40px;
+    color:rgb(215, 56, 56);
+}
+
+.appSecondSection {
+    display: flex;
+    margin-top: 3px;
+}
+
+.appSecondSection * {
+    padding-top: 10px;
+    margin-left: 29px;
+    margin-right: 28px;
+}
+
+.appSecondSection .second img {
+    padding-top: 0px;
+    margin-top: 0px;
+    width: 55px;
+}

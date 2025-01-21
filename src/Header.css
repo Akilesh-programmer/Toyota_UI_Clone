@@ -18,8 +18,8 @@ header button {
     color: white;
 }
 
-#whatsappLogo {
-    width: 25px;
-    margin-top: 0px;
-    padding-top: 0px;
+.bi-whatsapp {
+    font-size: 30px;
+    margin-top: 15px;
+    color: rgb(145, 142, 142);
 }

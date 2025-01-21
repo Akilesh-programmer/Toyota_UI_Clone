@@ -1,5 +1,5 @@
 import toyotaLogo from "./images/Toyota-logo.jpg";
-import whatsappLogo from "./images/whatsapp.svg";
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 import "./Header.css";
 
@@ -18,7 +18,7 @@ export const Header = () => {
             <p>MORE</p>
         </div>
         <button>BUY ONLINE</button>
-        <img id={"whatsappLogo"} src={whatsappLogo} alt="whatsApp Logo" />
+        <i className="bi bi-whatsapp"></i>
     </header>
   )
 }
