@@ -12,6 +12,11 @@ import rav4 from "./images/range_car_images/rav4_4.png";
 import rumion from "./images/range_car_images/rumion.jpg";
 import velfire from "./images/range_car_images/velfire.webp";
 
+import aweFirst from "./images/awesome_section_images/become-dealer-multi-with-all-models-547x306.jpg";
+import aweSecond from "./images/awesome_section_images/rumion-whats-awesome-547x306.jpg";
+import aweThird from "./images/awesome_section_images/seamless-conversisons-547x306.jpg";
+import aweFourth from "./images/awesome_section_images/wow-whats-awesome-547x306.jpg";
+
 import steering from "./images/steer.png";
 
 import "bootstrap-icons/font/bootstrap-icons.css";
@@ -79,6 +84,111 @@ export const App = () => {
         </div>
         
       </div>
+
+      <h1 id="whatsAwesomeHeading">What's Awesome</h1>
+
+      <div className="whatsAwesome">
+
+        <div className="whatsAwesomeFirst">
+          <img src={aweFirst} alt="" />
+          <p><b>Become Dealer</b></p>
+          <button>Know More</button>
+        </div>
+
+        <div className="whatsAwesomeSecond">
+          <img src={aweSecond} alt="" />
+          <p><b>Rumion</b></p>
+          <button>Know More</button>
+        </div>
+
+        <div className="whatsAwesomeThird">
+          <img src={aweThird} alt="" />
+          <p><b>Mobility Solution</b></p>
+          <button>Know More</button>
+        </div>
+
+        <div className="whatsAwesomeFourth">
+          <img src={aweFourth} alt="" />
+          <p><b>Wheel on Web</b></p>
+          <button>Know More</button>
+        </div>
+
+      </div>
+
+      <h1 id="pressReleases">Press Releases</h1>
+      <p id="checkoutLatestNews">Checkout Latest News</p>
+
+      <div className="news">
+        <div className="news1">
+          <div className="newsDate">
+            <p>01</p>
+            <p>November</p>
+            <p>2023</p>
+          </div>
+
+          <div className="right">
+            <p className="first">Toyota Kirloskar Motor Reports Robust Performance: Sells 21,879 Units in
+            October 2023</p>
+            <p className="second">Bangalore, November 01, 2023: Toyota Kirloskar Motor (TKM) today reported yet another month of strong performance with the sales of 21,879 units indicating a sharp rise of 66% in comparison with October 2022, when the sales stood at 13,143 uni...
+            </p>
+          </div>
+        </div>
+
+        <div className="news2">
+          <div className="newsDate">
+            <p>20</p>
+            <p>October</p>
+            <p>2023</p>
+          </div>
+
+          <div className="right">
+            <p className="first">Toyota Kirloskar Motor Reports Robust Performance: Sells 21,879 Units in
+            October 2023</p>
+            <p className="second">Bangalore, November 01, 2023: Toyota Kirloskar Motor (TKM) today reported yet another month of strong performance with the sales of 21,879 units indicating a sharp rise of 66% in comparison with October 2022, when the sales stood at 13,143 uni...</p>
+          </div>
+          
+        </div>
+
+        <div className="news3">
+          <div className="newsDate">
+            <p>17</p>
+            <p>October</p>
+            <p>2023</p>
+          </div>
+
+          <div className="right">
+            <p className="first">Toyota Kirloskar Motor Reports Robust Performance: Sells 21,879 Units in
+            October 2023</p>
+            <p className="second">Bangalore, November 01, 2023: Toyota Kirloskar Motor (TKM) today reported yet another month of strong performance with the sales of 21,879 units indicating a sharp rise of 66% in comparison with October 2022, when the sales stood at 13,143 uni...</p>
+          </div>
+          
+        </div>
+
+        <div className="news4">
+          <div className="newsDate">
+            <p>14</p>
+            <p>October</p>
+            <p>2023</p>
+          </div>
+
+          <div className="right">
+            <p className="first">Toyota Kirloskar Motor Reports Robust Performance: Sells 21,879 Units in
+            October 2023</p>
+            <p className="second">Bangalore, November 01, 2023: Toyota Kirloskar Motor (TKM) today reported yet another month of strong performance with the sales of 21,879 units indicating a sharp rise of 66% in comparison with October 2022, when the sales stood at 13,143 uni...</p>
+          </div>
+          
+        </div>
+
+      </div>
+
+      <p id="viewAll"><b>View All></b></p>
+
+      <h1 id="moreHeading">More From Toyota</h1>
+
+      <div className="more">
+        
+      </div>
+
     </div>
   )
 }
