@@ -17,6 +17,11 @@ import aweSecond from "./images/awesome_section_images/rumion-whats-awesome-547x
 import aweThird from "./images/awesome_section_images/seamless-conversisons-547x306.jpg";
 import aweFourth from "./images/awesome_section_images/wow-whats-awesome-547x306.jpg";
 
+import moreDelivery from "./images/more/delivery-lead-time-547x306.jpg";
+import moreHappy from "./images/more/happy-customers-547x306.jpg";
+import moreSixteen from "./images/more/sixteen-annual-dream-car-contst-547x306.jpg";
+import moreToyota from "./images/more/toyota-environment-400x240.jpg";
+
 import steering from "./images/steer.png";
 
 import "bootstrap-icons/font/bootstrap-icons.css";
@@ -186,7 +191,10 @@ export const App = () => {
       <h1 id="moreHeading">More From Toyota</h1>
 
       <div className="more">
-        
+        <img src={moreDelivery} alt="" />
+        <img src={moreHappy} alt="" />
+        <img src={moreSixteen} alt="" />
+        <img src={moreToyota} alt="" />
       </div>
 
     </div>
